@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+<div class="information">
+                <p>В настоящее время в школе 1655 обучающихся в 63 классах</p>
+                <ul>
+                    <li>- 1 - 4 классы - 741 обучающихся (27 классов)</li>
+                    <li>- 5 - 9 классы - 832 обучающихся (32 классов)</li>
+                    <li>- 10 - 11 классы - 82 обучающихся (4 класса)</li>
+                </ul>
+            </div>
+            <div id="article">
+                <h4>Обучение в школе ведется на русском языке</h4>
+                <div id="image">
+                    <img src="{% static "img/school.jpg" %}" alt="Фотография школы">
+                </div>
+                <div id="school-info">
+                    <ul>
+                        <li>Учредитель: муниципальное учреждение "Управление образования администрации города Ростова-на-Дону".</li>
+                        <li>Адрес учредителя: 344002, г. Ростов-на-Дону, ул. Обороны, № 76.</li>
+                        <li>Телефон учредителя: 240-65-02</li>
+                        <li>Сайт учредителя: <a href="http://www.rostov-gorod.ru/">http://www.rostov-gorod.ru/</a></li>
+                        <li>Электронная почта учредителя: <a href="#">rguo@aaanet.ru</a>, <a href="#">rguo@mail.ru.</a></li>
+                    </ul>
+                </div>
+            </div>
+     <script type="text/javascript">
+        var delay_popup = 500;
+        setTimeout("document.getElementById('bg_popup').style.display='block'", delay_popup);
+    </script>
+    <div id="bg_popup">
+
+        <div id="popup">
+
+            <h1>{{ last }}</h1>
+            <p>{{ last.text }}</p>
+            <a class="close" href="#" title="Закрыть" onclick="document.getElementById('bg_popup').style.display='none'; return false;">X</a>
+
+        </div>
+
+    </div>
+{% endblock %} 

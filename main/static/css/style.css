@@ -1,0 +1,675 @@
+html, body, #wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: #DDE5E5;
+}
+
+#logo-text h1 > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#address > a {
+    text-decoration: none;
+}
+
+/* Начало шапки */
+
+#header {
+    background: #40B3B3;
+}
+
+.else {
+    display: flex;
+    flex-direction: row;
+}
+
+.else a {
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+#header header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: "Comic Sans MS";
+    font-size: 24px;
+}
+
+#header header #top {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2.5%;
+    margin-top: 40px;
+}
+
+#header header #top #logo-text {
+    margin: 0 2.5%;
+    width: 65%;
+    color: white;
+    font-size: 20px;
+}
+
+#header header #top #contacts {
+    width: 50%;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#header header #top #contacts ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#header header #top #contacts ul li h2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#header header #bottom {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    margin-top: 2%;
+}
+
+.else {
+    padding-left: 7%;
+}
+
+#header header #bottom a {
+    text-transform: uppercase;
+    color: black;
+}
+
+/* Конец шапки */
+
+/* Начало контента */
+
+#content {
+    padding: 5% 7%;
+    display: flex;
+}
+
+/* -- Левый сайдбар */
+
+#content #left-sidebar {
+    width: 27%;
+}
+
+#content #left-sidebar blockquote {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10%;
+}
+
+#content #left-sidebar blockquote p {
+    margin-left: 5%;
+}
+
+#content #left-sidebar blockquote img {
+    margin-top: 10%;
+}
+
+#content #left-sidebar nav {
+    width: 70%;
+    background: #009999;
+    border-radius: 3px;
+}
+
+#content #left-sidebar nav ul li {
+    min-height: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin: 5% 0;
+}
+
+#content #left-sidebar nav ul li:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    height: 100%;
+    background: white;
+    transition: all 0.4s ease;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#content #left-sidebar nav ul li:hover:before {
+    width: 120%;
+    left: -10%;
+    transition: all 0.4s;
+}
+
+#content #left-sidebar nav ul li:hover a {
+    color: #009999;
+    z-index: 999;
+    transition: all 0.5s;
+}
+
+#content #left-sidebar nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* -- Конец левого сайдбара */
+
+/* -- Начало основного контента */
+
+#content #main-content {
+    width: 73%;
+    padding: 0 5%;
+}
+
+#content #main-content .information {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#content #main-content #article {
+    margin: 2.5% 0;
+}
+
+#content #main-content #article h4 {
+    text-align: center;
+    color: #00736A;
+    font-family: Arial, serif;
+    font-size: 23px;
+    margin: 2% 0;
+}
+
+#content #main-content #article #image {
+    height: 395px;
+    width: 100%;
+}
+
+#content #main-content #article #image img {
+    height: 100%;
+    width: 100%;
+}
+
+#content #main-content #article #school-info {
+    font-family: Arial, serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+}
+
+/* -- Конец основного контента */
+
+/* Конец контента */
+
+/* Начало футера */
+
+#footer {
+    padding: 0 2.5%;
+}
+
+#footer footer h3 {
+    font-family: Arial, sans-serif;
+    color: grey;
+    text-align: center;
+    font-size: 18px;
+}
+
+#footer footer h5 {
+    color: black;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    color: grey;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Конец футера */
+.form input[type="text"], input[type="submit"] {
+    width: 300px;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+}
+
+.form textarea {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    /* = Убираем скролл */
+    overflow: auto;
+
+    /* = Убираем увеличение */
+    resize: none;
+    width: 500px;
+    height: 250px;
+
+    /* = Добавим фон, рамку, отступ*/
+    background: #f6f6f6;
+    border: 1px solid #cecece;
+    border-radius: 8px 0 0 0;
+    padding: 8px 0 8px 10px;
+}
+
+/*  =   File Load */
+/* Стили для контейнера */
+.file-load-block {
+    width: 310px;
+    height: 35px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* работаем с инпутом который конкретно file */
+.file-load-block input[type=file] {
+    /* делаем кроссбраузерную прозрачность */
+    opacity: 0;
+    filter: alpha(opacity=0);
+
+    /* Позиционируем абсолютно отсносительно контейнера по правому краю */
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    /*
+    Задаем высоту и делаем шрифт огромным
+    для того чтобы кнопка "обзор" занимала все пространство контейнера
+    */
+    height: 35px;
+    font-size: 600px;
+
+    /* Ставим наш инпут поверх всего содержимого */
+    z-index: 2;
+    cursor: pointer;
+    width: auto;
+}
+
+/* Стилизируем инпут и кнопку которые под загрузчиком */
+.file-load-block input[type=text] {
+    z-index: 1;
+    width: 190px;
+    padding-right: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+.file-load-block button {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 90px;
+    height: 28px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #666;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 2px #ccc;
+}
+
+.file-load-block .button-hover {
+    box-shadow: 0 0 2px #ccc;
+}
+
+
+.news button {
+    margin-top: 2%;
+    padding: 8px 14px;
+    background: #009999;
+    border: 2px solid black;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-bottom: 5%;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.news {
+    margin-left: 10%;
+}
+
+.news h1 {
+    font-size: 40px;
+    margin-bottom: 4%;
+}
+
+.news p {
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 4%;
+}
+
+.news h2 {
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+#bg_popup {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#popup {
+    background: #fff;
+    width: 520px;
+    margin: 25% auto;
+    padding: 5px 20px 13px 20px;
+    border: 2px solid #1BA600;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 20px #000;
+    -moz-box-shadow: 0px 0px 20px #000;
+    box-shadow: 0px 0px 20px #000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.close {
+    display: block;
+    position: absolute;
+    top: -12px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+    line-height: 28px;
+    color: #fff;
+    background: #1BA600;
+    cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover {
+    background-color: #f30;
+}
+
+#popup {
+    display: block;
+}
+
+.cbalink {
+    display: none;
+}
+
+.te h5 {
+    text-align: center;
+    font-family: Arial, serif;
+    font-size: 40px;
+}
+
+.add_str {
+    margin-left: 5%;
+    width: 500px;
+    height: 500px;
+    display: block;
+}
+
+
+form .submit {
+    margin-top: 5%;
+}
+
+.pag {
+    color: black;
+    float: left;
+    padding: 0px 8px;
+    font-size: 20px;
+
+}
+
+#footer footer img {
+    margin-top: 1%;
+    margin-left: 45%;
+}
+
+.add_c {
+    margin-left: 30%;
+}
+
+.add_c input {
+    margin-bottom: 3%;
+    width: 300px;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+}
+
+.add_c button {
+    padding: 8px 14px;
+    background: #009999;
+    border: 2px solid black;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-bottom: 5%;
+}
+
+.redm {
+    margin-left: 30%;
+
+}
+
+.redm input {
+    margin-bottom: 3%;
+    width: 300px;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+}
+
+.redm button {
+    padding: 8px 14px;
+    background: #009999;
+    border: 2px solid black;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-bottom: 5%;
+}
+
+.red {
+    margin-top: 4%;
+}
+
+.inputs_sidebar {
+    width: 100%;
+    height: 400px;
+    background: red;
+}
+
+.men {
+    padding: 15px;
+    border: solid black;
+    margin-bottom: 5%;
+}
+
+.men h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.men a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#red {
+    color: #ca2525;
+}
+
+#orange {
+    color: #ffa81e;
+}
+
+.redm {
+    margin-left: 30%;
+
+}
+
+#menred {
+    color: green;
+}
+
+.menred input {
+    margin-bottom: 3%;
+    width: 300px;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+}
+
+.menred button {
+    padding: 8px 14px;
+    background: #009999;
+    border: 2px solid black;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-bottom: 5%;
+}
+
+.menred {
+    margin-top: 4%;
+    margin-left: 20%;
+}
+
+#black {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin-bottom: 5%;
+    display: block;
+}
+
+#admin {
+    margin-bottom: 2%;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.admin a {
+    color: black;
+}
+
+#bot {
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+
+.page {
+    margin-left: 5%;
+    font-family: 'Roboto', sans-serif;
+
+}
+.page h1{
+
+    font-size: 2em;
+}
+
+.pagination {
+
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.pagination li {
+    list-style: none;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid silver;
+    border-left: 0;
+}
+.pagination li:first-child {
+    border-left: 1px solid silver;
+}
+
+.admin h3{
+    margin-top: 2%;
+    margin-left: 2%;
+    color: #4885ed;
+}
+
+.list{
+    border: 2px solid grey;
+    width: 500px;
+    padding: 15px;
+}
+
+.list li{
+    list-style: none;
+}
+
+.list li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#article_name{
+    margin: 20px;
+    width: 300px;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+}
+
+#button{
+    margin-top: 2%;
+   
+}

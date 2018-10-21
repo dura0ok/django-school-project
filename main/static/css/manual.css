@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+margin: 0;
+padding: 0;
+font-family: 'Montserrat', sans-serif;
+}
+h3{
+text-align: center;
+
+}
+.block1 p{
+text-align: center;
+margin-top: 3%;
+
+}
+.block1 #im{
+margin-top: 3%;
+margin-left: 30%;
+}
+#test{
+margin-top: 2%;
+}
+#test1{
+	margin-top: 2%;
+	margin-bottom: 3%;
+}
+#men{
+margin-top: 4%;
+margin-left: 30%;
+}
+#men1{
+margin-top: 4%;
+margin-left: 18%;
+}
+#yra{
+margin-top: 4%;
+margin-left: 42%;
+}
+#centr p{
+margin-left: 45%;
+}

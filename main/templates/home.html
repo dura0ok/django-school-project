@@ -2,7 +2,7 @@
 {% extends 'base.html' %}
 {% block menu %}
     {% for table in menu %}
-        <li><a href="">{{ table.name }}</a></li>
+        <li><a href="{{ table.href }}">{{ table.name }}</a></li>
     {% endfor %}
 {% endblock %}
 {% load staticfiles %}

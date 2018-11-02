@@ -6,11 +6,11 @@ from pages.models import Menu
 
 
 def home(request):
-    menulist = Menu.objects.all().order_by('sort')
+    menu_list = Menu.objects.all().order_by('sort')
     item = New.objects.filter(main=1).last()
     context = {
         'last': item,
-        'menu': menulist
+        'menu': menu_list
     }
     return render(request, 'home.html', context=context)
 
@@ -24,10 +24,10 @@ class NewsList(ListView):
 
     def get_context_data(self, **kwargs):
         item = New.objects.filter(main=1).last()
-        menuser = Menu.objects.all().order_by('sort')
+        menu_list = Menu.objects.all().order_by('sort')
         context = super().get_context_data(**kwargs)
         context['last'] = item
-        context['menu'] = menuser
+        context['menu'] = menu_list
         return context
 
 
@@ -35,5 +35,11 @@ class Detail(DetailView):
     model = New
     context_object_name = 'article'
     template_name = 'pages/post.html'
+
+    def get_context_data(self, **kwargs):
+        menu_list = Menu.objects.all().order_by('sort')
+        context = super().get_context_data(**kwargs)
+        context['menu'] = menu_list
+        return context
 
 

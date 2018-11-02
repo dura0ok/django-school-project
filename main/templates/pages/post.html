@@ -1,5 +1,10 @@
 {% extends '../base.html' %}
 {% load staticfiles %}
+{% block menu %}
+    {% for table in menu %}
+        <li><a href="{{ table.href }}">{{ table.name }}</a></li>
+    {% endfor %}
+{% endblock %}
 {% block content %}
 <div class="news">
                 <h1>{{ article.title }}<br></h1>

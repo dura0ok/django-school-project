@@ -143,11 +143,11 @@ CKEDITOR_CONFIGS = {
         'height': 500,
         'extraPlugins': 'youtube',
         'toolbar_Custom': [
-            ['Styles', 'Format', 'Bold', 'Italic', 'Underline', 'Strike', 'SpellChecker', 'Undo', 'Redo'],
+            ['Styles', 'Format',  'Bold', 'Italic', 'Underline', 'Strike', 'SpellChecker', 'Undo', 'Redo'],
             ['Link', 'Unlink', 'Anchor'],
             ['Image', 'Flash', 'Table', 'HorizontalRule'],
             ['TextColor', 'BGColor'],
-            ['Smiley', 'SpecialChar'], ['Source'],
+            ['Smiley', 'SpecialChar', 'Youtube'], ['Source'],
         ],
     }
 }

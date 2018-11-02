@@ -3,12 +3,10 @@ from ckeditor_uploader.fields import RichTextUploadingField
 # Create your models here.
 
 
-#class Page
 
 class Page(models.Model):
     name = models.CharField(max_length=250)
     body = RichTextUploadingField()
-
 
 
 class Menu(models.Model):

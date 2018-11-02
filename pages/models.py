@@ -1,5 +1,5 @@
 from django.db import models
-
+from ckeditor_uploader.fields import RichTextUploadingField
 # Create your models here.
 
 
@@ -7,7 +7,8 @@ from django.db import models
 
 class Page(models.Model):
     name = models.CharField(max_length=250)
-    body = models.TextField()
+    body = RichTextUploadingField()
+
 
 
 class Menu(models.Model):

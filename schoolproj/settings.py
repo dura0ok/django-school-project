@@ -135,3 +135,4 @@ STATICFILES_FINDERS = (
 )
 
 ADMIN_MEDIA_PREFIX = '/static/admin/'
+CKEDITOR_UPLOAD_PATH = "uploads/"

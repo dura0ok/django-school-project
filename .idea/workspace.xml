@@ -4,12 +4,7 @@
     <list default="true" id="a776a100-86cf-4aa2-a8ef-adf159101281" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schoolproj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/schoolproj/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schoolproj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/schoolproj/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +34,7 @@
         <counts>
           <entry key="css" value="70" />
           <entry key="html" value="973" />
-          <entry key="py" value="2115" />
+          <entry key="py" value="2181" />
           <entry key="py@schoolproj" value="25" />
         </counts>
       </usages-collector>
@@ -49,7 +44,7 @@
           <entry key="CommandLine" value="24" />
           <entry key="HTML" value="973" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="2115" />
+          <entry key="Python" value="2181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -57,9 +52,9 @@
           <entry key="css" value="2" />
           <entry key="html" value="24" />
           <entry key="jpg" value="3" />
-          <entry key="js" value="1" />
+          <entry key="js" value="2" />
           <entry key="png" value="1" />
-          <entry key="py" value="49" />
+          <entry key="py" value="51" />
           <entry key="sqlite3" value="1" />
         </counts>
       </usages-collector>
@@ -68,8 +63,8 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="24" />
           <entry key="Image" value="4" />
-          <entry key="JavaScript" value="1" />
-          <entry key="Python" value="49" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Python" value="51" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -77,17 +72,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="-318">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
                 <marker date="1541141871666" expanded="true" signature="241:242" ph="..." />
                 <marker date="1541141871666" expanded="true" signature="241:360" ph="..." />
                 <marker date="1541141871666" expanded="true" signature="923:924" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <marker date="1541147798310" expanded="true" signature="156:240" ph="..." />
+                <marker date="1541147798310" expanded="true" signature="265:270" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schoolproj/files/static/ckeditor/ckeditor/plugins/ajax/plugin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/schoolproj/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="143" column="32" selection-start-line="143" selection-start-column="32" selection-end-line="143" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -132,14 +161,14 @@
         <option value="$PROJECT_DIR$/main/templates/home.html" />
         <option value="$PROJECT_DIR$/main/templates/pages/create.html" />
         <option value="$PROJECT_DIR$/schoolproj/urls.py" />
-        <option value="$PROJECT_DIR$/schoolproj/settings.py" />
         <option value="$PROJECT_DIR$/pages/admin.py" />
-        <option value="$PROJECT_DIR$/pages/models.py" />
         <option value="$PROJECT_DIR$/main/urls.py" />
         <option value="$PROJECT_DIR$/pages/urls.py" />
         <option value="$PROJECT_DIR$/main/views.py" />
         <option value="$PROJECT_DIR$/pages/views.py" />
         <option value="$PROJECT_DIR$/main/templates/pages/page.html" />
+        <option value="$PROJECT_DIR$/pages/models.py" />
+        <option value="$PROJECT_DIR$/schoolproj/settings.py" />
       </list>
     </option>
   </component>
@@ -171,51 +200,7 @@
             <path>
               <item name="schoolproj" type="b2602c69:ProjectViewProjectNode" />
               <item name="schoolproj" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="schoolproj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="schoolproj" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="schoolproj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="schoolproj" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="schoolproj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="schoolproj" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="schoolproj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="schoolproj" type="462c0819:PsiDirectoryNode" />
-              <item name="schoolproj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="schoolproj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="schoolproj" type="462c0819:PsiDirectoryNode" />
-              <item name="schoolproj" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="schoolproj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="schoolproj" type="462c0819:PsiDirectoryNode" />
-              <item name="schoolproj" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="schoolproj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="schoolproj" type="462c0819:PsiDirectoryNode" />
-              <item name="schoolproj" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="uploads" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,14 +270,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49636805" visible="true" weight="0.275" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49636805" visible="true" weight="0.275" />
       <window_info id="Structure" order="1" sideWeight="0.50363195" side_tool="true" weight="0.25378788" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="manage.py@schoolproj" order="0" weight="0.32626426" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3284553" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.411093" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.411093" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -384,13 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/schoolproj/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -454,18 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1541140694697" expanded="true" signature="156:240" ph="..." />
-            <marker date="1541140694697" expanded="true" signature="265:270" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/static/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-570" />
@@ -504,14 +471,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="-318">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
             <marker date="1541141871666" expanded="true" signature="241:242" ph="..." />
             <marker date="1541141871666" expanded="true" signature="241:360" ph="..." />
             <marker date="1541141871666" expanded="true" signature="923:924" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schoolproj/files/static/ckeditor/ckeditor/plugins/ajax/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1541147798310" expanded="true" signature="156:240" ph="..." />
+            <marker date="1541147798310" expanded="true" signature="265:270" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schoolproj/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="143" column="32" selection-start-line="143" selection-start-column="32" selection-end-line="143" selection-end-column="32" />
         </state>
       </provider>
     </entry>

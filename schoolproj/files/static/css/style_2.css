@@ -1,0 +1,253 @@
+html, body, #wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: black;
+}
+
+/* Начало шапки */
+
+#header {
+    height: 200px;
+    background: black;
+    border-bottom: 2px solid #fff;
+}
+
+.else {
+    display: flex;
+    flex-direction: row;
+}
+
+.else a {
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+#header header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    font-family: "Comic Sans MS";
+    font-size: 24px;
+}
+
+#header header #top {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2.5%;
+}
+
+#header header #top #logo-text {
+    margin: 0 2.5%;
+    width: 65%;
+    color: white;
+}
+
+#logo-text h1 > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#header header #top #contacts {
+    margin-right: 3%;
+    width: 50%;
+}
+
+#address > a {
+    text-decoration: none;
+}
+
+#header header #top #contacts ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#header header #top #contacts ul li h2 {
+    text-align: center;
+    color: white;
+}
+
+#header header #bottom {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    margin-top: 2%;
+    color: #fff;
+}
+
+.else {
+    padding-left: 7%;
+}
+
+#header header #bottom a {
+    text-transform: uppercase;
+    color: white;
+}
+
+/* Конец шапки */
+
+/* Начало контента */
+
+#content {
+    padding: 5% 7%;
+    display: flex;
+}
+
+/* -- Левый сайдбар */
+
+#content #left-sidebar {
+    width: 27%;
+}
+
+#content #left-sidebar blockquote {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10%;
+    color: #fff;
+}
+
+#content #left-sidebar blockquote p {
+    margin-left: 5%;
+}
+
+#content #left-sidebar blockquote img {
+    margin-top: 10%;
+}
+
+#content #left-sidebar nav {
+    width: 70%;
+    background: black;
+    border: 2px solid silver;
+    border-radius: 3px;
+}
+
+#content #left-sidebar nav ul li {
+    min-height: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin: 5% 0;
+}
+
+#content #left-sidebar nav ul li:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    height: 100%;
+    background: white;
+    transition: all 0.4s ease;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.5);
+}
+
+#content #left-sidebar nav ul li:hover:before {
+    width: 120%;
+    left: -10%;
+    transition: all 0.4s;
+}
+
+#content #left-sidebar nav ul li:hover a {
+    color: #009999;
+    z-index: 999;
+    transition: all 0.5s;
+}
+
+#content #left-sidebar nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* -- Конец левого сайдбара */
+
+/* -- Начало основного контента */
+
+#content #main-content {
+    width: 73%;
+    padding: 0 5%;
+}
+
+#content #main-content .information {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+
+#content #main-content #article {
+    margin: 2.5% 0;
+}
+
+#content #main-content #article h4 {
+    text-align: center;
+    color: #fff;
+    font-family: Arial, serif;
+    font-size: 23px;
+    margin: 2% 0;
+}
+
+#content #main-content #article #image {
+    height: 395px;
+    width: 100%;
+}
+
+#content #main-content #article #image img {
+    height: 100%;
+    width: 100%;
+}
+
+#content #main-content #article #school-info {
+    font-family: Arial, serif;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+}
+
+/* -- Конец основного контента */
+
+/* Конец контента */
+
+/* Начало футера */
+
+#footer {
+    padding: 0 2.5%;
+    border-top: 2px solid #fff;
+}
+
+#footer footer {
+    font-family: Arial, sans-serif;
+    color: grey;
+    text-align: center;
+    font-size: 18px;
+}
+
+#footer > footer > h3 {
+    color: #fff;
+    padding-top: 25px;
+}
+
+#footer footer img {
+    margin: 5px 0;
+}
+
+/* Конец футера */

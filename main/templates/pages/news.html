@@ -1,33 +1,42 @@
 {% extends '../base.html' %}
+{% block menu %}
+    {% for table in menu %}
+        <li><a href="">{{ table.name }}</a></li>
+    {% endfor %}
+{% endblock %}
 {% load staticfiles %}
+
 {% block content %}
+
     <div class="news">
-{% for item in articles %}
+        {% for item in articles %}
 
 
             <h1>{{ item }} </h1>
 
-            <img height="500" width="800" src="{{ item.image.url }}" alt="img" > <br>
-                <p>{{ item.text }}</p>
+            <img height="500" width="800" src="{{ item.image.url }}" alt="img"> <br>
+            <p>{{ item.text|truncatechars:50 }}</p>
 
-            <a href="/article/{{ item.id }}"><button>Продолжить?</button></a>
+            <a href="/article/{{ item.id }}">
+                <button>Продолжить?</button>
+            </a>
 
 
 
 
-    {% endfor %}
-  <div class="pagination">
+        {% endfor %}
+        <div class="pagination">
     <span class="step-links">
-        {% if page.has_previous %}
-            <a href="?page={{ page.previous_page_number }}">Previous</a>
+        {% if page_obj.has_previous %}
+            <a class="paginate-a" href="?page={{ page_obj.previous_page_number }}">Назад</a>
         {% endif %}
-            <span class="current">
-                asd {{ page.number }} of {{ page.paginator.num_pages }}.
+        <span class="current">
+                Страница {{ page_obj.number }} из {{ page_obj.paginator.num_pages }}.
             </span>
-        {% if page.has_next %}
-            <a href="?page={{ page.next_page_number }}">Next</a>
+        {% if page_obj.has_next %}
+            <a class="paginate-a" href="?page={{ page_obj.next_page_number }}">Вперед</a>
         {% endif %}
     </span>
-</div>
+        </div>
     </div>
 {% endblock %}

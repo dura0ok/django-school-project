@@ -5,10 +5,10 @@
     <title>МБОУ СОШ №44</title>
     <meta charset="UTF-8">
     {% load staticfiles %}
-    <link rel="stylesheet" href="{% static "css/style.css" %}">
+    <link rel="stylesheet" id="style" href="{% static "css/style.css" %}">
     <link rel="stylesheet" href="{% static "css/reset.css" %}">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
+    <link rel="stylesheet" href="{% static "assets/bvi.min.css" %}">
 
 </head>
 
@@ -37,7 +37,7 @@
                 <div class="else">
                     <a href="http://rostov44.eljur.ru" target="_blank"> <img src="{% static "img/favicon.ico" %}" width="50"> </a>
                     <a href="http://rostov44.eljur.ru" target="_blank">ЭлЖур</a>
-                    <a href="index_2.html">Версия для слабовидящих(1)</a>
+                    <a href="#" class="bvi-panel-open-menu">Версия для слабовидящих(1)</a>
                 </div>
             </div>
         </header>
@@ -81,7 +81,11 @@
         </footer>
     </section>
 </div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{% static "assets/js/bvi.min.js" %}"></script>
+<script src="{% static "assets/js/bvi-init-panel.min.js" %}"></script>
+<script src="{% static "assets/js/js.cookie.min.js" %}"></script>
+<script src="{% static "assets/js/responsivevoice.min.js" %}"></script>
 </body>
 
 </html>

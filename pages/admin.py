@@ -8,5 +8,7 @@ admin.site.register(Page)
 
 
 class AdminMenus(admin.ModelAdmin):
-    admin.site.register(Menu)
-    ordering = ('-sort',)
+    ordering = ('sort',)
+
+
+admin.site.register(Menu, AdminMenus)

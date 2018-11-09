@@ -26,7 +26,23 @@ SECRET_KEY = '7(#%0=s#p23!!=zf-nfxb!zm#!sa3d7c_-sy$p+5+yaz*8ky6+'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+# Mail
+EMAIL_USE_SSL = True
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+# Host for sending e-mail.
+EMAIL_HOST = 'smtp.mail.ru'
+
+# Port for sending e-mail.
+EMAIL_PORT = 465
+
+
+# Optional SMTP authentication information for EMAIL_HOST.
+EMAIL_HOST_USER = 'fenixrnd@mail.ru'
+EMAIL_HOST_PASSWORD = 'Test123321'
+
+# End Mail
 
 # Application definition
 

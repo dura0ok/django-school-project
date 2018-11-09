@@ -17,5 +17,5 @@ class Menu(models.Model):
     sort = models.IntegerField()
 
     def __str__(self):
-        return self.name
-
+        msg = "[{}] {}".format(str(self.sort), self.name)
+        return msg  
